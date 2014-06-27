@@ -1,0 +1,106 @@
+#titlePageContainer {
+	min-height: 100vh;
+	max-height: 100vh;
+}
+
+.coverAll {
+	display: table;
+    position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+}
+
+#background1 {
+	background-image: url('images/surfer1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.overlay {
+	background: rgba(0,0,0,.6);
+	z-index: 1;
+}
+
+.navBarItem {
+	display: inline-block;
+	font-family: 'Lato', Arial;
+	color: white;
+	z-index: 2;
+	margin: 1.5em;
+}
+
+#staticNavBar {
+	display: block;
+	position: fixed;
+	top: .5em;
+	z-index: 200;
+	width: 100%;
+	background-color: black;
+}
+
+#nameContainer {
+	z-index: 2;
+	display: table-cell;
+    vertical-align: middle;
+}
+
+#name {
+	font-family: 'Lato', Arial;
+	color: white;
+	font-size: 8em;
+	text-align: center;
+	line-height: 0.5em;
+}
+
+#subtitle {
+	font-family: 'Lato', Arial;
+	color: white;
+	font-size: .2em;
+}
+
+.newPage {
+	display: block;
+	min-height: 100vh;
+	max-height: 100vh;
+	width: 100%;
+	background-color: white;
+}
+
+.upperStuff {
+	min-height: 65vh;
+	max-height: 65vh;
+	width: 100%;
+	background: #dbdbdb;
+	text-align: center;
+	padding-top: 5.5em;
+}
+
+.lowerStuff {
+	min-height: 35vh;
+	max-height: 35vh;
+	width: 100%;
+	background: #333;
+}
+
+.projectSlide {
+	height: 55vh;
+	width: 40vw;
+	background: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.column {
+	text-align: center;
+	display: inline-block;
+	height: 100%;
+	width: 33%;
+}
+
+.columnPane {
+	width: 60%;
+	margin: 0 auto 0 auto;
+}
