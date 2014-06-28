@@ -71,7 +71,14 @@
 }
 
 .upperStuff {
-	height: 64vh;
+	height: 65vh;
+	width: 100%;
+	background: #dbdbdb;
+	text-align: center;
+}
+
+.upperStuff2 {
+	height: 50vh;
 	width: 100%;
 	background: #dbdbdb;
 	text-align: center;
@@ -83,11 +90,30 @@
 	background: #dbdbdb;
 	text-align: center;
 	z-index: 300;
-	color: white;
+	color: black
+	font-family: 'Josefin Sans', Arial;
+	font-size: 2em;
+}
+
+.upperStuffBuffer2 {
+	height: 15vh;
+	width: 100%;
+	background: #dbdbdb;
+	text-align: center;
+	z-index: 300;
+	color: black
+	font-family: 'Josefin Sans', Arial;
+	font-size: 2em;
 }
 
 .lowerStuff {
-	height: 26vh;
+	height: 25vh;
+	width: 100%;
+	background: #333;
+}
+
+.lowerStuff2 {
+	height: 35vh;
 	width: 100%;
 	background: #333;
 }
@@ -103,19 +129,91 @@
 	
 }
 
+.aboutBox {
+
+	width: 35vw;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgba(0,0,0,.3);
+	font-family: 'Josefin Sans', Arial;
+	font-size: 1.5em;
+	text-align: center;
+	padding: 1em;
+}
+
 .column {
 	text-align: center;
 	display: inline-block;
 	height: 100%;
 	width: 33%;
+	font-family: 'Josefin Sans', Arial;
+	font-size: 1.5em;
+	color: white;
 }
 
 .columnPane {
+	width: 40%;
+	margin: 0 auto 0 auto;
+}
+
+.columnPane2 {
 	width: 60%;
 	margin: 0 auto 0 auto;
 }
 
+
 .descBox {
 	text-align: center;
 	color: white;
+}
+
+#buff1 {
+	height: 8vh;
+	width: 100%;
+	background: #333;
+}
+
+#portDesc {
+	height: 10vh;
+	width: 100%;
+	background: #333;
+	font-family: 'Josefin Sans', Arial;
+	font-size: 1.5em;
+	color: white;
+}
+
+#contactSection {
+	height: 10vh;
+	width: 100%;
+	background: #333;
+	font-family: 'Josefin Sans', Arial;
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+	padding-top: 2em;
+}
+
+#buff2 {
+	height: 8vh;
+	width: 100%;
+	background: #333;
+}
+
+.left {
+	float: left;
+	margin-top: 10em;
+	margin-left: 15em;
+}
+
+.right{
+	float: right;
+	margin-top: 10em;
+	margin-right: 15em;
+}
+
+.icon {
+	text-align: center;
+}
+.header {
+	padding-bottom: 2em;
 }
