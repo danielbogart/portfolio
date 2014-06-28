@@ -26,7 +26,7 @@
 
 .navBarItem {
 	display: inline-block;
-	font-family: 'Lato', Arial;
+	font-family: 'Josefin Sans', Arial;
 	color: white;
 	z-index: 2;
 	margin: 1.5em;
@@ -48,15 +48,16 @@
 }
 
 #name {
-	font-family: 'Lato', Arial;
+	font-family: 'Josefin Sans', Arial;
 	color: white;
 	font-size: 8em;
 	text-align: center;
 	line-height: 0.5em;
+	font-weight: bold;
 }
 
 #subtitle {
-	font-family: 'Lato', Arial;
+	font-family: 'Josefin Sans', Arial;
 	color: white;
 	font-size: .2em;
 }
@@ -70,27 +71,36 @@
 }
 
 .upperStuff {
-	min-height: 65vh;
-	max-height: 65vh;
+	height: 64vh;
 	width: 100%;
 	background: #dbdbdb;
 	text-align: center;
-	padding-top: 5.5em;
+}
+
+.upperStuffBuffer {
+	height: 10vh;
+	width: 100%;
+	background: #dbdbdb;
+	text-align: center;
+	z-index: 300;
+	color: white;
 }
 
 .lowerStuff {
-	min-height: 35vh;
-	max-height: 35vh;
+	height: 26vh;
 	width: 100%;
 	background: #333;
 }
 
 .projectSlide {
-	height: 55vh;
-	width: 40vw;
-	background: white;
+	height: 60vh;
+	width: 35vw;
 	margin-left: auto;
 	margin-right: auto;
+	background-image: url('images/swelfie1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	
 }
 
 .column {
@@ -103,4 +113,9 @@
 .columnPane {
 	width: 60%;
 	margin: 0 auto 0 auto;
+}
+
+.descBox {
+	text-align: center;
+	color: white;
 }
