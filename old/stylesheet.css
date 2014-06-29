@@ -1,19 +1,8 @@
 #titlePageContainer {
-	height: 760px;
+	min-height: 100vh;
+	max-height: 100vh;
 }
 
-.darkbg {
-	background: #171b1e;
-}
-
-#titlePage {
-	position: absolute;
-	height: 720px;
-	width: 100%;
-	overflow: hidden;
-}
-
-/*
 .coverAll {
 	display: table;
     position: absolute;
@@ -231,4 +220,3 @@
 .header {
 	padding-bottom: 2em;
 }
-*/
