@@ -241,8 +241,9 @@ section {
 }
 
 .portItemContainer {
-	height: 700px;
-	margin: 100px 0 0 0;
+	height: 800px;
+	width: 100%;
+	margin: 59px 0 0 0;
 }
 
 .projectTitle {
@@ -253,7 +254,7 @@ section {
 
 .siteButton {
 	display: inline-block;
-	margin: 1em;
+	margin: 1em 1em 1.7em 1em;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	-ms-border-radius: 2px;
@@ -279,7 +280,7 @@ section {
 	opacity: 1;
 }
 
-#btn {
+.btn2 {
 	content: '';
 	display: inline-block;
 	right: 1em;
@@ -292,4 +293,61 @@ section {
 #containerer {
 	display: inline-block;
 	margin-left: .3em;
+}
+
+#leftArrow {
+	display: inline-block;
+	left: 0;
+	background: url('images/arrow_left.svg') no-repeat center center;
+	display: inline-block;
+	width: 18px;
+	height: 35px;
+	overflow: hidden;
+	text-indent: 120%;
+	white-space: nowrap;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: 18px 35px;
+	-moz-background-size: 18px 35px;
+	-o-background-size: 18px 35px;
+	background-size: 18px 35px;
+	position: absolute;
+	top: 45%;
+}
+
+#rightArrow {
+	display: inline-block;
+	right: 0;
+	background: url('images/arrow_right.svg') no-repeat center center;
+	display: inline-block;
+	width: 18px;
+	height: 35px;
+	overflow: hidden;
+	text-indent: 120%;
+	white-space: nowrap;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: 18px 35px;
+	-moz-background-size: 18px 35px;
+	-o-background-size: 18px 35px;
+	background-size: 18px 35px;
+	position: absolute;
+	top: 45%;
+}
+
+#about {
+	height: 720px;
+	padding: 4em 0;
+}
+
+#aboutTitle {
+	font-size: 4em;
+	color: black;
+}
+
+#aboutSubTitle {
+	margin: 1.3em;
+	font-size: 1.2em;
+	font-style: italic;
+	color: #276594;
 }
