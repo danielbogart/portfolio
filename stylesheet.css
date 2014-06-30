@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'Regencie Light';
+  src: url('http://www.fontsaddict.com/fontface/regencie-light.ttf');
+}
+
+body {
+	font-family: 'Regencie Light', sans-serif;
+	color: #282c30;
+	background-color: #f5f4f1;
+}
+
 #titlePageContainer {
 	height: 760px;
 }
@@ -13,222 +24,272 @@
 	overflow: hidden;
 }
 
-/*
-.coverAll {
-	display: table;
-    position: absolute;
-	top: 0;
-	left: 0;
-	height: 100vh;
+header {
+	height: 120px;
 	width: 100%;
 }
 
-#background1 {
-	background-image: url('images/surfer1.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-
-}
-
-.overlay {
-	background: rgba(0,0,0,.6);
-	z-index: 1;
-}
-
-.navBarItem {
-	display: inline-block;
-	font-family: 'Josefin Sans', Arial;
-	color: white;
-	z-index: 2;
-	margin: 1.5em;
-}
-
-#staticNavBar {
-	display: block;
-	position: fixed;
-	top: .5em;
-	z-index: 200;
-	width: 100%;
-	background-color: black;
-}
-
-#nameContainer {
-	z-index: 2;
-	display: table-cell;
-    vertical-align: middle;
-}
-
-#name {
-	font-family: 'Josefin Sans', Arial;
-	color: white;
-	font-size: 8em;
-	text-align: center;
-	line-height: 0.5em;
-	font-weight: bold;
-}
-
-#subtitle {
-	font-family: 'Josefin Sans', Arial;
-	color: white;
-	font-size: .2em;
-}
-
-.newPage {
-	display: block;
-	min-height: 100vh;
-	max-height: 100vh;
-	width: 100%;
-	background-color: white;
-}
-
-.upperStuff {
-	height: 65vh;
-	width: 100%;
-	background: black;
-	text-align: center;
-}
-
-.upperStuff2 {
-	height: 50vh;
-	width: 100%;
-	background: black;
-	text-align: center;
-}
-
-.upperStuffBuffer {
-	height: 10vh;
-	width: 100%;
-	background: black;
-	text-align: center;
-	z-index: 300;
-	color: black
-	font-family: 'Josefin Sans', Arial;
-	font-size: 2em;
-}
-
-.upperStuffBuffer2 {
-	height: 15vh;
-	width: 100%;
-	background: black;
-	text-align: center;
-	z-index: 300;
-	color: black
-	font-family: 'Josefin Sans', Arial;
-	font-size: 2em;
-}
-
-.lowerStuff {
-	height: 25vh;
-	width: 100%;
-	background: #170027;
-}
-
-.lowerStuff2 {
-	height: 35vh;
-	width: 100%;
-	background: #170027;
-}
-
-.projectSlide {
-	height: 60vh;
-	width: 35vw;
-	margin-left: auto;
-	margin-right: auto;
-	background-image: url('images/swelfie1.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	box-shadow: 0px 0px 8px #CCCCCC;
-	-moz-box-shadow: 0px 0px 8px #CCCCCC;
-	-webkit-box-shadow: 0px 0px 7px 2px white;
-	
-}
-
-.aboutBox {
-
-	width: 35vw;
-	margin-left: auto;
-	margin-right: auto;
-	background: rgba(0,0,0,.3);
-	font-family: 'Josefin Sans', Arial;
-	font-size: 1.5em;
-	text-align: center;
-	padding: 1em;
-}
-
-.column {
-	text-align: center;
-	display: inline-block;
+.wrap {
 	height: 100%;
-	width: 33%;
-	font-family: 'Josefin Sans', Arial;
-	font-size: 1.5em;
+	width: 90%;
+	max-width: 75em;
+	margin: 0 auto;
+	position: relative;
+}
+
+.wrap2 {
+	height: 640px;
+	width: 90%;
+	max-width: 75em;
+	margin: 0 auto;
+	position: relative;
+}
+
+.wrap #woah {
+
+}
+
+.logo {
+	position: absolute;
+	left: 0;
+	display: inline-block;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+}
+
+.menuOptions {
+	position: absolute;
+	right: 0;
+	display: inline-block;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+}
+
+.menuItem {
+	font-family: 'Regencie Light', sans-serif;
+	color: #6b7175;
+	display: inline-block;
+	line-height: 1;
+	font-size: 1rem;
+	margin-left: 40px;
+}
+
+.title {
+	font-family: 'Regencie Light', sans-serif;
 	color: white;
-}
-
-.columnPane {
-	width: 40%;
-	margin: 0 auto 0 auto;
-}
-
-.columnPane2 {
-	width: 60%;
-	margin: 0 auto 0 auto;
-}
-
-
-.descBox {
-	text-align: center;
-	color: white;
-}
-
-#buff1 {
-	height: 8vh;
-	width: 100%;
-	background: #170027;
-}
-
-#portDesc {
-	height: 10vh;
-	width: 100%;
-	background: #170027;
-	font-family: 'Josefin Sans', Arial;
-	font-size: 1.5em;
-	color: white;
-}
-
-#contactSection {
-	height: 10vh;
-	width: 100%;
-	background: #170027;
-	font-family: 'Josefin Sans', Arial;
-	font-size: 1.5em;
-	color: white;
-	text-align: center;
-	padding-top: 2em;
-}
-
-#buff2 {
-	height: 8vh;
-	width: 100%;
-	background: #170027;
-}
-
-.left {
-	float: left;
-	margin-top: 10em;
-	margin-left: 15em;
-}
-
-.right{
-	float: right;
-	margin-top: 10em;
-	margin-right: 15em;
-}
-
-.icon {
 	text-align: center;
 }
-.header {
-	padding-bottom: 2em;
+
+em {
+	display: block;
+	color: #6b7175;
+	font-style: italic;
+	font-size: 1.2rem;
+	margin: 1.5em 0;
 }
-*/
+
+h1 {
+	font-size: 50px;
+}
+
+#laptop {
+	width: 90%;
+	max-width: 750px;
+	height: 480px;
+	background: url('images/laptop.jpg') no-repeat center center;
+	background-size: 100% auto;
+	margin: 0 auto;
+
+}
+
+.btn {
+	position: absolute;
+	width: 200px;
+	height: 70px;
+	padding: 0;
+	z-index: 50;
+	top: 300px;
+	left: 42%;
+	-webkit-box-shadow: 0 0 0 2px white;
+	-moz-box-shadow: 0 0 0 2px white;
+	box-shadow: 0 0 0 2px white;
+	-webkit-border-radius: 50em;
+	-moz-border-radius: 50em;
+	-ms-border-radius: 50em;
+	-o-border-radius: 50em;
+	border-radius: 50em;
+	text-align: center;
+}
+
+#laptop a {
+	color: #6b7175;
+	text-decoration: none;
+	/* for Matrix pic
+	background: #171b1e;
+	*/
+}
+
+.btn span {
+	font-family: 'Regencie Light', sans-serif;
+	position: absolute;
+	display: block;
+	bottom: 0;
+	left: 0;
+	color: white;
+	height: 100%;
+	width: 100%;
+	line-height: 68px;
+
+}
+
+.wallpaper {
+	position: absolute;
+	width: 550px;
+	height: 345px;
+	background: transparent url('images/altimg.jpg') no-repeat center center;
+	-webkit-background-size: 650px 450px;
+	-moz-background-size: 650px 450px;
+	-o-background-size: 650px 450px;
+	background-size: 650px 450px;
+	top: 170px;
+	left: 325px;
+	z-index: 40;
+	opacity: .7;
+}
+
+#services {
+	position: relative;
+	height: 860px;
+}
+
+section {
+	text-align: center;
+	overflow: hidden;
+}
+
+.tl { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	right: 50%; 
+	bottom: 50%; 
+	opacity: .7;
+
+}
+
+.tl:hover {
+	background-color: #eae8e2;
+	opacity: 1;
+}
+
+.tr { 
+	position: absolute; 
+	top: 0; left: 50%; 
+	right: 0; bottom: 50%; 
+	opacity: .7;
+}
+
+.tr:hover {
+	background-color: #eae8e2;
+	opacity: 1;
+}
+
+.bl { 
+	position: absolute; 
+	top: 50%; 
+	left: 0; 
+	right: 50%; 
+	bottom: 0; 
+	opacity: .7;
+}
+
+.bl:hover {
+	background-color: #eae8e2;
+	opacity: 1;
+}
+
+.br { 
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	right: 0; 
+	bottom: 0; 
+	opacity: .7;	
+} 
+
+.br:hover {
+	background-color: #eae8e2;
+	opacity: 1;
+}
+
+.servicePics {
+	margin-top: 40px;
+}
+
+.serviceDesc {
+	font-weight: bold;
+	font-size: 1.5em
+}
+
+#portfolio {
+	position: relative;
+	height: 800px;
+}
+
+.darkestbg {
+	background-color: #171b1e;
+}
+
+.portItemContainer {
+	height: 700px;
+	margin: 100px 0 0 0;
+}
+
+.projectTitle {
+	font-size: 3em;
+	color: white;
+	margin: 10px;
+}
+
+.siteButton {
+	display: inline-block;
+	margin: 1em;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	overflow: hidden;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	color: white;
+	font-weight: normal;
+	font-style: italic;
+	text-transform: none;
+	background: #6b7175;
+	padding: .7em 1em .7em 1em;
+	position: relative;
+	opacity: .7;
+	text-decoration: none;
+}
+
+.siteButton:hover {
+	opacity: 1;
+}
+
+#btn {
+	content: '';
+	display: inline-block;
+	right: 1em;
+	background: url('images/link.png') no-repeat center center;
+	height: 13px;
+	width: 13px;
+	background-size: 13px 13px;
+}
+
+#containerer {
+	display: inline-block;
+	margin-left: .3em;
+}
