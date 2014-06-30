@@ -337,6 +337,16 @@ section {
 
 #about {
 	height: 720px;
+	background: url('images/aboutbg.jpg') no-repeat center center;
+	background-position: 0 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: relative;
+}
+
+#padding {
 	padding: 4em 0;
 }
 
@@ -350,4 +360,45 @@ section {
 	font-size: 1.2em;
 	font-style: italic;
 	color: #276594;
+}
+
+#profilePic {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background: url('images/profile-pic.jpg');
+	background-size: cover;
+	margin: 5em auto 0 auto;
+}
+
+#profileDesc {
+	margin: 1em 0 .7em 0;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#subDesc {
+	margin: 1em 0 .5em 0;
+	font-size: 1.1em;
+	font-style: italic;
+	color: #276594;
+}
+
+#subDesc a:link {
+	text-decoration: underline;
+	color: #276594;
+}
+
+#subDesc a:visited {
+	text-decoration: none;
+	color: #276594;
+}
+
+#linkedin {
+	display: block;
+	height: 28px;
+	width: 28px;
+	background: url('images/linkedin.png');
+	background-size: cover;
+	margin: 1em auto;
 }
