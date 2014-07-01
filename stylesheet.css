@@ -351,7 +351,7 @@ section {
 }
 
 #aboutTitle {
-	font-size: 4em;
+	font-size: 3em;
 	color: black;
 }
 
@@ -401,4 +401,41 @@ section {
 	background: url('images/linkedin.png');
 	background-size: cover;
 	margin: 1em auto;
+}
+
+#contact {
+	height: 800px;
+}
+
+#contactTitle {
+	font-size: 3em;
+	color: white;
+	margin: 1em auto 0 auto;
+}
+
+#contactSub {
+	margin: 1.3em;
+	font-size: 1.2em;
+	font-style: italic;
+	color: #6b7175;
+}
+
+#map-canvas {
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto auto auto;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+#map-canvas:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+.contactImg {
+	display: inline-block;
+	margin: 2em 4em 0 4em;
 }
