@@ -437,5 +437,32 @@ section {
 
 .contactImg {
 	display: inline-block;
-	margin: 2em 4em 0 4em;
+	margin: 2em 1em;
+}
+
+.contactDetails {
+	display: inline-block;
+	margin: 1.5em 7.7em 0 5.2em;
+	font-size: .9em;
+	color: #6b7175;
+}
+
+#footer {
+	text-align: center;
+	padding: 10px 30px 40px 30px;
+	margin-top: 50px;
+	font-size: .8em;
+	color: #6b7175;
+}
+
+#emailBox {
+	text-align: center;
+	display: block;
+	margin: 2em auto;
+}
+
+#email {
+	display: block;
+	line-height: 26px;
+	margin: 0 auto;
 }
