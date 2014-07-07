@@ -7,10 +7,15 @@
 	<!--CSS Stylesheets-->
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link type="text/css" rel="stylesheet" href="lightslider/css/lightSlider.css" />    
 	
 	<!--jQuery-->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script type="text/javascript" src="app.js"></script>
+
+	<!--jQuery plugins-->
+	<script src="smooth-scroll-master/dist/js/smooth-scroll.js"></script>
+	<script src="lightslider/js/lightSlider.js"></script>
 
 	<!--Google Fonts-->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
@@ -27,11 +32,11 @@
 		<div id="titlePage">
 			<header role="banner">
 				<div class="wrap">
-					<img class="logo" src="images/logo2.png" height="70px" width="101px" alt="db">
+					<img class="logo" src="images/logo5.png" height="70px" width="70px" alt="db">
 					<div class="menuOptions">
-						<div class="menuItem">PORTFOLIO</div> 
-						<div class="menuItem">ABOUT</div>
-						<div class="menuItem">CONTACT</div>
+						<a data-scroll href="#portfolio" class="menuItem">PORTFOLIO</a> 
+						<a data-scroll href="#about" class="menuItem">ABOUT</a>
+						<a data-scroll href="#contact" class="menuItem">CONTACT</a>
 					</div>
 				</div>
 			</header>
@@ -41,11 +46,12 @@
 					<em>designing, developing, and surfing the web</em>
 				</div>
 				<div id="laptop">
-					<a href="#0" class="btn">
+					<a data-scroll href="#contact" class="btn">
 						<span>HIRE ME</span>
 					</a>
-					<div class="wallpaper">
+				<!--	<div class="wallpaper">
 					</div>
+					-->
 				</div>
 			</div>
 		</div>
@@ -74,7 +80,7 @@
 		</section>
 		<section id="portfolio" class='darkestbg'>
 			<div class="wrap">
-				<div class="portItemContainer">
+				<div class="portItemContainer">						
 					<div class="projectTitle">
 					SURF'S APP
 					</div>
@@ -107,27 +113,44 @@
 			</div>
 		</section>
 		<section id="contact" class="darkbg">
+
+			<!--PB Map below:
 			<div id="map-canvas"></div>
+			-->
 			<div class="wrap">
 				<div id="contactTitle">CONTACT</div>
-				<div id="contactSub">choose your weapon</div>
-				<div id="emailBox">
+				<div id="contactSub">get in touch!</div>
+				<!--<div id="emailBox">
 					<input id="email" type="text" name="user" placeholder="Enter email" style="width:270px;/">
+				</div>-->
+				<form action="http://getsimpleform.com/messages?form_api_token=61bc0850486100939c388342d754f0c2" method="post" onSubmit="alert('Thank you for your message!')">
+				<!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+				<input type='hidden' name='redirect_to' value='http://www.dbogs.com' />
+				<!-- all your input fields here.... -->
+				<input id="formName" type='text' name='name' placeholder="name" required/>
+				<input id="formEmail" type='text' name='email' placeholder="email" required/>
+				<input class="formMessage" type='text' name='message' placeholder="message" required/>
+				<br>
+				<input id='submitBtn' type='submit' value='SEND' />
+				</form>
+				<!--
+				<div id="socialMedia">
+					<img class="contactImg" src="images/mail@2x.png" height="50px" width="50px" alt="phone">
+					<img class="contactImg" src="images/google+@2x.png" height="50px" width="50px" alt="phone">
+					<img class="contactImg" src="images/github@2x.png" height="50px" width="50px" alt="phone">
+					<img class="contactImg" src="images/skype@2x.png" height="50px" width="50px" alt="phone">
+					<img class="contactImg" src="images/twitter@2x.png" height="50px" width="50px" alt="phone">
+					 http://medialoot.com/item/round-social-media-icons/ for icons
 				</div>
-				<img class="contactImg" src="images/mail@2x.png" height="50px" width="50px" alt="phone">
-				<img class="contactImg" src="images/facebook@2x.png" height="50px" width="50px" alt="phone">
-				<img class="contactImg" src="images/google+@2x.png" height="50px" width="50px" alt="phone">
-				<img class="contactImg" src="images/instagram@2x.png" height="50px" width="50px" alt="phone">
-				<img class="contactImg" src="images/github@2x.png" height="50px" width="50px" alt="phone">
-				<img class="contactImg" src="images/skype@2x.png" height="50px" width="50px" alt="phone">
-				<img class="contactImg" src="images/twitter@2x.png" height="50px" width="50px" alt="phone">
-				<!-- http://medialoot.com/item/round-social-media-icons/ for icons -->
+				 -->
 
 				<div id="footer">
 					&copy; Daniel Bogart 2014
+					<script>
+					    smoothScroll.init();
+					</script>
 				</div>
-
 			</div>
-		</section>	 
+		</section>
 </body>
 </html>

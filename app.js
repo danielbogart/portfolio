@@ -9,4 +9,8 @@ $(document).ready(function(){
 
 	//initialize google maps, centered on myLatLng
 	var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+
+	$(function() {
+    $('.banner').unslider();
+	});
 })
