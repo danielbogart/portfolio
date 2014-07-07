@@ -1,6 +1,9 @@
 $(document).ready(function(){
 
-	var myLatlng = new google.maps.LatLng(32.802341, -117.238873);
+	$("div#demo").jContent({	width: 1200,
+                                height: 800, 
+                                easing: "easeOutCirc"}); 
+	/*var myLatlng = new google.maps.LatLng(32.802341, -117.238873);
 	var mapOptions = {
 	  zoom: 15,
 	  center: myLatlng,
@@ -8,9 +11,7 @@ $(document).ready(function(){
 	}
 
 	//initialize google maps, centered on myLatLng
-	var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+	var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);*/
 
-	$(function() {
-    $('.banner').unslider();
-	});
+	smoothScroll.init();
 })
