@@ -752,3 +752,70 @@ input.formMessage {
 		width: 40%;
 	}
 }
+
+@media all and (max-width: 460px) {
+
+	.panel .portPic img{
+		width: 380px;
+		margin-right: 59em;
+	}
+	
+	#portfolio {
+		height: 463px;
+	}
+
+	.panel .projectTitle {
+		width: 374px;
+	}
+
+	.panel .siteButton {
+		margin-right: 52em;
+	}
+
+	#titlePageContainer {
+		height: 630px;
+	}
+
+	#laptop {
+		height: 310px;
+	}
+
+	#laptop a {
+		top: 0px;
+	}
+
+	em {
+		font-size: 1rem;
+	}
+
+}
+
+@media all and (max-width: 436px) {
+
+	.logo {
+		height: 40px;
+		width: 40px;
+	}
+
+	.menuItem {
+		font-size: .9rem;
+	}
+
+	.panel .portPic img{
+		width: 320px;
+		margin-right: 59em;
+	}
+	
+	#portfolio {
+		height: 423px;
+	}
+
+	.panel .projectTitle {
+		width: 314px;
+	}
+
+	.panel .siteButton {
+		margin-right: 55em;
+	}
+
+}

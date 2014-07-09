@@ -150,3 +150,15 @@ div.js-circle
 	}
 }
 
+@media all and (max-width: 463px) {
+	div.jc-horizontal a.prev {
+		top: 20%;
+		margin-left: 3em;
+	}
+	div.jc-horizontal a.next {
+		top: 20%;
+		margin-right: 3em;
+	}
+}
+
+
