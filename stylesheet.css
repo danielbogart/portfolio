@@ -719,3 +719,36 @@ input.formMessage {
 		top: 45.7%;
 	}
 }
+
+@media all and (max-width: 605px) {
+
+	.panel .portPic img{
+		width: 400px;
+		margin-right: 59em;
+	}
+	
+	#portfolio {
+		height: 477px;
+	}
+
+	.panel .projectTitle {
+		width: 374px;
+	}
+
+	.panel .siteButton {
+		margin-right: 51em;
+	}
+
+	#services .br {
+		top: 47.5%;
+	}
+
+	.btn {
+		width: 100px;
+		top: 80px;
+	}
+
+	#formName {
+		width: 40%;
+	}
+}

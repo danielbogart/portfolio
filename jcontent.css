@@ -139,3 +139,14 @@ div.js-circle
 	
 }
 
+@media all and (max-width: 605px) {
+	div.jc-horizontal a.prev {
+		top: 18%;
+		margin-left: 5em;
+	}
+	div.jc-horizontal a.next {
+		top: 18%;
+		margin-right: 5.5em;
+	}
+}
+
