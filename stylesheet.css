@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Regencie Light';
-  src: url('http://www.fontsaddict.com/fontface/regencie-light.ttf');
+  src: url('regencie-light.ttf');
 }
 
 body {
@@ -109,8 +109,11 @@ h1 {
 	height: 70px;
 	padding: 0;
 	z-index: 50;
-	top: 300px;
-	left: 42%;
+	top: 50px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
 	-webkit-box-shadow: 0 0 0 2px white;
 	-moz-box-shadow: 0 0 0 2px white;
 	box-shadow: 0 0 0 2px white;
@@ -547,4 +550,172 @@ input.formMessage {
 	max-width: 100%;
 	max-height: 100%;
 	width: auto\9; /* ie8 */
+}
+
+@media all and (max-width: 1350px) {
+	.panel .portPic {
+		width: 1100px;
+	}
+	
+	.panel .projectTitle {
+		width: 1100px;
+	}
+
+	.panel .siteButton {
+		margin-right: 5.5em;
+	}
+}
+
+@media all and (max-width: 1250px) {
+	.panel .portPic {
+		width: 1000px;
+	}
+	
+	.panel .projectTitle {
+		width: 1000px;
+	}
+
+	.panel .siteButton {
+		margin-right: 11.5em;
+	}
+}
+
+@media all and (max-width: 1135px) {
+	.panel .portPic {
+		width: 950px;
+	}
+	
+	.panel .projectTitle {
+		width: 950px;
+	}
+
+	.panel .siteButton {
+		margin-right: 15em;
+	}
+}
+
+@media all and (max-width: 1080px) {
+	.panel .portPic img{
+		width: 700px;
+		margin-right: 3em;
+	}
+	
+	#portfolio {
+		height: 677px;
+	}
+
+	.panel .projectTitle {
+		width: 900px;
+	}
+
+	.panel .siteButton {
+		margin-right: 18em;
+	}
+}
+
+@media all and (max-width: 990px) {
+	.panel .portPic img{
+		width: 650px;
+		margin-right: 5em;
+	}
+	
+	#portfolio {
+		height: 643px;
+	}
+
+	.panel .projectTitle {
+		width: 850px;
+	}
+
+	.panel .siteButton {
+		margin-right: 21em;
+	}
+}
+
+@media all and (max-width: 950px) {
+	.panel .portPic img{
+		width: 600px;
+		margin-right: 9em;
+	}
+	
+	#portfolio {
+		height: 610px;
+	}
+
+	.panel .projectTitle {
+		width: 800px;
+	}
+
+	.panel .siteButton {
+		margin-right: 24em;
+	}
+}
+
+@media all and (max-width: 880px) {
+	.panel .portPic img{
+		width: 550px;
+		margin-right: 12em;
+	}
+	
+	#portfolio {
+		height: 577px;
+	}
+
+	.panel .projectTitle {
+		width: 750px;
+	}
+
+	.panel .siteButton {
+		margin-right: 28em;
+	}
+}
+
+@media all and (max-width: 815px) {
+	.panel .portPic img{
+		width: 500px;
+		margin-right: 17.5em;
+	}
+	
+	#portfolio {
+		height: 543px;
+	}
+
+	.panel .projectTitle {
+		width: 644px;
+	}
+
+	.panel .siteButton {
+		margin-right: 34em;
+	}
+}
+
+@media all and (max-width: 720px) {
+	.panel .portPic img{
+		width: 400px;
+		margin-right: 24em;
+	}
+	
+	#portfolio {
+		height: 477px;
+	}
+
+	.panel .projectTitle {
+		width: 544px;
+	}
+
+	.panel .siteButton {
+		margin-right: 40em;
+	}
+	
+	#services {
+		height: 600px;
+	}
+
+	#services img {
+		width: 50%;
+	}
+
+	#services .br {
+		top: 45.7%;
+	}
 }
