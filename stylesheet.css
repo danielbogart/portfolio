@@ -400,10 +400,19 @@ section {
 }
 
 #linkedin {
-	display: block;
+	display: inline-block;
 	height: 28px;
 	width: 28px;
 	background: url('images/linkedin.png');
+	background-size: cover;
+	margin: 1em auto;
+}
+
+#git {
+	display: inline-block;
+	height: 28px;
+	width: 28px;
+	background: url('images/git.png');
 	background-size: cover;
 	margin: 1em auto;
 }
