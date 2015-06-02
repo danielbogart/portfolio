@@ -797,6 +797,11 @@ input.formMessage {
 		font-size: 1rem;
 	}
 
+	.projectTitle {
+		font-size: 2em;
+		height: 48px;
+	}
+
 }
 
 @media all and (max-width: 436px) {
